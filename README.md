@@ -1,4 +1,4 @@
-# MCP23008
+# PCA9536
 
 ### Overview
 
