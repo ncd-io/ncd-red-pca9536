@@ -1,0 +1,33 @@
+{
+    "name": "ncd-red-pca9536",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ncd-io/ncd-red-pca9536"
+    },
+    "keywords": [
+        "PCA9536",
+        "ncd",
+        "relay-control",
+        "i2c"
+    ],
+    "author": "Trey Felton",
+    "license": "MIT",
+    "node-red": {
+        "nodes": {
+            "ncd-mcp23008": "pca9536.js"
+        }
+    },
+    "dependencies": {
+        "ncd-red-comm": "^1.2.0"
+    },
+    "bugs": {
+        "url": "https://github.com/ncd-io/ncd-red-pca9536/issues"
+    },
+    "homepage": "https://github.com/ncd-io/ncd-red-pca9536#readme"
+}
