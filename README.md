@@ -1,7 +1,5 @@
 # PCA9536
 
-### Overview
-
 This library provides a class for the PCA9536, it relies on the ncd-red-comm library for communication, and includes a node-red node for the PCA9536. The PCA9536 is an 8-pin CMOS device that provides 4 bits of General Purpose parallel
 Input/Output (GPIO) expansion . [Ncd.io](https://ncd.io) manufactures multiple mini-modules that utilize this chip for different applications. You can see a [list here](https://store.ncd.io/?post_type=product&fwp_chip_name=pca9536).
 
