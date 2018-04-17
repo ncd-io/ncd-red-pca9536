@@ -65,12 +65,8 @@ module.exports = function(RED){
 			}else{
 				msg = dev_status;
 			}
-			if(status == "{}"){
-				status = JSON.stringify(_status);
-			}else{
-				status = JSON.stringify(_status);
-				node.send(msg);
-			}
+			status = JSON.stringify(_status);
+			node.send(msg);
 		}
 
 		function get_status(repeat, force){

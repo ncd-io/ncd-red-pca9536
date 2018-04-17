@@ -1,6 +1,3 @@
-process.on('uncaughtException', function (err) {
-  console.log(err);
-})
 module.exports = class PCA9536{
 	constructor(addr, config, comm){
 		this.data = config;
