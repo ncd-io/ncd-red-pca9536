@@ -1,6 +1,6 @@
 {
     "name": "ncd-red-pca9536",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -24,7 +24,7 @@
         }
     },
     "dependencies": {
-        "ncd-red-comm": "^1.2.0"
+        "ncd-red-comm": "^1.4.0"
     },
     "bugs": {
         "url": "https://github.com/ncd-io/ncd-red-pca9536/issues"
